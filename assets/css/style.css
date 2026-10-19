@@ -125,6 +125,12 @@ section {
   display: flex; align-items: center; justify-content: center;
   color: #fff; text-align: center; position: relative;
 }
+#hero .hero-avatar {
+  width: 150px; height: 150px; border-radius: 50%;
+  object-fit: cover; border: 4px solid rgba(255,255,255,0.7);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+  margin-bottom: 20px;
+}
 #hero h1 { font-size: 52px; color: #fff; margin: 0 0 10px; }
 #hero p { font-size: 22px; color: rgba(255,255,255,0.9); margin: 0 0 30px; }
 #hero .cta { display: inline-flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
