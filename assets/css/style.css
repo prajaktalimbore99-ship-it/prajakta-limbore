@@ -121,10 +121,16 @@ section {
 /* ---------- Hero ---------- */
 #hero {
   width: 100%; height: 100vh;
-  background: linear-gradient(135deg, #149ddd 0%, #0a6fa8 100%);
+  background: url('../img/headshot1.png') center center / cover no-repeat;
   display: flex; align-items: center; justify-content: center;
   color: #fff; text-align: center; position: relative;
 }
+#hero::before {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(135deg, rgba(20,157,221,0.55) 0%, rgba(10,111,168,0.65) 100%);
+  z-index: 0;
+}
+#hero > .container { position: relative; z-index: 1; }
 #hero .hero-avatar {
   width: 150px; height: 150px; border-radius: 50%;
   object-fit: cover; border: 4px solid rgba(255,255,255,0.7);
