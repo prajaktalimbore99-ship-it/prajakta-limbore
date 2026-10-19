@@ -1,8 +1,40 @@
-# Prajakta Limbore - Portfolio Website
+# 🌐 Prajakta Limbore — Portfolio Website
 
-A personal portfolio website modeled on a clean single-page Bootstrap layout (iPortfolio style), tailored to Prajakta Limbore's career story. Built with plain HTML, CSS and a little JavaScript - no build step required.
+> **Live website:** 👉 https://prajaktalimbore99-ship-it.github.io/prajakta-limbore/
 
-## Folder structure
+---
+
+## 👋 Hi there!
+
+This is the personal portfolio website of **Prajakta Limbore** — a Service Manager and problem-solver based in **Dublin, Ireland 🇮🇪**.
+
+She's the kind of person who doesn't just fix problems — she finds the **root cause** behind them. From a Pune engineering campus 🎓 to a US healthcare tech company 🏥, a Dublin consultancy degree 📚, an EdTech start-up 🚀 and now managed IT services 💼, one question has driven her whole career:
+
+> *"Why is this happening, and what's the one thing that, if fixed, makes everything else fall into place?"*
+
+## 🎯 What you'll find on the website
+
+- 🏠 **Home** — a quick hello and her motto
+- 👩‍💼 **About** — who she is and what she does
+- 🛠️ **Skills** — tools and practices she uses (SQL, Power BI, Salesforce, ServiceNow, root cause analysis, and more)
+- 📄 **Resume** — education, experience and impact
+- 📊 **Impact** — real results she delivered (42% fewer support tickets, 40% productivity boost, 55% more platform usage…)
+- 🏆 **Achievements** — from a perfect 100/100 in maths to marathon finishes 🏃‍♀️
+- 📬 **Contact** — how to reach her (she's available immediately!)
+
+## 🌍 Visiting the website
+
+Just open the link above in any browser — no download or sign-up needed. It works on phones 📱, tablets and computers 💻.
+
+- 📧 Email: prajaktadublin@gmail.com
+- 📞 Phone: +353 89 274 4672
+- 💼 LinkedIn: linkedin.com/in/prajakta-limbore
+
+## 🛠️ For developers (how it's built)
+
+Plain HTML, CSS and a little JavaScript — no build step. Hosted for free on **GitHub Pages**.
+
+### Folder structure
 
 ```
 prajakta-portfolio/
@@ -12,13 +44,12 @@ prajakta-portfolio/
     ├── css/style.css
     ├── js/main.js
     └── img/
-        ├── profile.svg   (replace with your own photo: profile.jpg/.png)
-        └── portfolio/    (add project screenshots here)
+        ├── headshot1.png
+        ├── headshot2.png
+        └── portfolio/
 ```
 
-## Preview locally
-
-Just open `index.html` in your browser, or run a quick server:
+### Preview locally
 
 ```bash
 cd prajakta-portfolio
@@ -26,35 +57,10 @@ python -m http.server 8000
 # then visit http://localhost:8000
 ```
 
-## Host on GitHub Pages (like your friend's site)
+### Update the live site
 
-1. Create a new GitHub repository. Name it either:
-   - `prajakta-limbore.github.io` (user site, served at `https://prajakta-limbore.github.io`), or
-   - any name like `portfolio` (project site, served at `https://<username>.github.io/portfolio`).
+Any change pushed to the `main` branch updates the website automatically within ~1–2 minutes. 🎉
 
-2. Copy everything inside this folder into the repo (the repo root should contain `index.html`).
+## 🙏 Credits
 
-3. Commit and push:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial portfolio"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/<repo-name>.git
-   git push -u origin main
-   ```
-
-4. Enable GitHub Pages: Repository -> Settings -> Pages -> Source: "Deploy from a branch" -> Branch: `main` / folder `/ (root)` -> Save.
-
-5. Wait a minute; your site will be live at the URL shown.
-
-## Customise
-
-- Replace `assets/img/profile.svg` with a real photo (update the `src` in `index.html` if you change the filename).
-- Add project screenshots to `assets/img/portfolio/` and reference them in the Impact section.
-- Update links (resume PDF, etc.) as needed.
-- Edit text in `index.html`; styles in `assets/css/style.css`.
-
-## Credits
-
-Layout inspired by the BootstrapMade "iPortfolio" template. Icons by Bootstrap Icons. Fonts by Google Fonts.
+Layout inspired by the BootstrapMade "iPortfolio" template. Icons by Bootstrap Icons. Fonts by Google Fonts. Photos are Prajakta's own. 💙
