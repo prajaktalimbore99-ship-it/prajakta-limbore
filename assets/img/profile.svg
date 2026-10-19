@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#149ddd"/>
+      <stop offset="100%" stop-color="#0a6fa8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <circle cx="200" cy="150" r="70" fill="#ffffff" opacity="0.9"/>
+  <path d="M80 360 Q200 250 320 360 L320 400 L80 400 Z" fill="#ffffff" opacity="0.9"/>
+  <text x="200" y="390" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#173b6c" font-weight="700">Prajakta Limbore</text>
+</svg>
