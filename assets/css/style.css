@@ -127,9 +127,10 @@ section {
 }
 #hero::before {
   content: ""; position: absolute; inset: 0;
-  background: linear-gradient(135deg, rgba(20,157,221,0.55) 0%, rgba(10,111,168,0.65) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.55) 100%);
   z-index: 0;
 }
+#hero h1, #hero p { text-shadow: 0 2px 12px rgba(0,0,0,0.6); }
 #hero > .container { position: relative; z-index: 1; }
 #hero .hero-avatar {
   width: 150px; height: 150px; border-radius: 50%;
